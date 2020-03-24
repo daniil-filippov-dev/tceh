@@ -1,6 +1,9 @@
 # tceh
+
 python course from Sobolev 2017
+
 This repository provides sample code from next topics: 
+
 0. introduction
 1. data types
 2. operations
