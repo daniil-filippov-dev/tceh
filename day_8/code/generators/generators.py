@@ -11,6 +11,7 @@ def cities():
     ]
     return iter(arr)
 
+# Числа Фибоначчи 
 
 def fib():
     a, b = 0, 1
