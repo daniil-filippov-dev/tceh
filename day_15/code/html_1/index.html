@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>We're learning CSS3!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1 id="main_header">
+        CSS is very easy!
+    </h1>
+  </header>
+
+  <main>
+      <div class="main">
+        <p class="main__text">This is text.</p>
+        <p>This is also text.</p>
+      </div>
+
+      <div data-tag="simple-div">
+        Some content here.
+        <a class="inline-block-link" href="http://ya.ru">yandex</a>
+      </div>
+
+      <div class="div-with-link">
+        <!-- This is a comment, it won't be visiable -->
+        <a class="div-with-link__link div-with-link__link--active"
+            href="http://google.com" target="_blank">
+          This is link.
+        </a>
+      </div>
+
+      <div class="inputs">
+        <form method="POST"> <!-- show action attribute -->
+          <label>
+          Name:
+            <input type="text" name="text" />
+
+        </label>
+        <label>
+        Email:
+          <input type="email" name="email" />
+          </label>
+
+          <input type="submit" value="submit" />
+        </form>
+      </div>
+
+      <ul class="list-to-match">
+        <li class="list-item">nope</li>
+        <li class="list-item">match me</li>
+        <li class="list-item">nope</li>
+      </ul>
+  </main>
+
+  <footer>
+    <div class="footer-image">
+      <img src="http://placehold.it/800x200" />
+    </div>
+  </footer>
+
+<body>
+</html>

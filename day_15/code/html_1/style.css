@@ -1,0 +1,15 @@
+body {
+    background-color: lightblue;
+}
+
+.inputs form input {
+    color: red;
+}
+
+.block-link {
+    display: block;
+}
+
+.inline-block-link {
+    display: inline-block;
+}
