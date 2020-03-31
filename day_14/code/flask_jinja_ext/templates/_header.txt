@@ -1,0 +1,4 @@
+This is a header for reports.
+It is stored in the other file.
+
+Why? Because we can.
