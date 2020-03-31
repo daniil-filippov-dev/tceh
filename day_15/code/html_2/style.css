@@ -1,0 +1,53 @@
+/* fixes */
+.clearfix:before,
+.clearfix:after {
+  content:"";
+  display:table;
+}
+.clearfix:after {
+  clear:both;
+}
+.clearfix {
+  zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/* styles */
+.header-image > img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+}
+
+.offers {
+    margin: 0 5%;
+}
+
+.offer {
+    float: left;
+    width: 29%;
+    padding: 1%;
+    margin: 1%;
+    outline: 1px solid;
+}
+
+.offer-heading {
+    text-align: center;
+}
+
+.offer-text {
+    text-align: justify;
+}
+
+/* Is it ok? */
+.offer-image-wrapper > img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 640px) {
+    .offer {
+        float: none;
+        width: 96%;
+    }
+}
