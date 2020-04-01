@@ -1,0 +1,17 @@
+'It\'s six o\'clock.';
+"Remember to say \"please\" and \"thank you.\"";
+
+"caterpillar".length;          //11
+
+
+"THE KIDS".toLowerCase();              //"the kids"
+
+
+
+
+"I wish I were big.".toUpperCase();        //"I WISH I WERE BIG."
+
+
+
+
+"   but keep the middle spaces   ".trim();             //"but keep the middle spaces"
